@@ -6,7 +6,7 @@ module.exports = (bucket, key, destination)=>{
   return new Promise((resolve, reject)=>{
     try{
       s3.getObject(params).createReadStream().pipe(file);
-      resolve("Sucess!");
+      resolve("Downloading!");
     }catch(err){
       console.log(err);
       reject(err);
