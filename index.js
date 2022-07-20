@@ -10,4 +10,5 @@ module.exports = {
   uploadFile: require('./core-tools/uploadFile'),
   uploadData: require('./core-tools/uploadData'),
   listItems: require('./core-tools/listItems'),
+  compareETags: require('./core-tools/compareETags')
 }
